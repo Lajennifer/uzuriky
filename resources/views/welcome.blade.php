@@ -5,7 +5,7 @@
 @endsection
 
 @section('content')
-<h1>{{ $foo }}</h1>
+<h1>My {{ $foo }} website</h1>
 
 
 

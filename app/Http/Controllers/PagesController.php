@@ -7,12 +7,21 @@ use Illuminate\Http\Request;
 class PagesController extends Controller
 {
     public function home(){
-        $sum = 5+6;       
+             
         return view('welcome',[
-            'foo' =>'bar',
-            'somme'=> $sum
+            'foo' =>'bar',    
         
         ]);
+    
+    }
+    public function contact(){
+             
+        return view('contact');
+    
+    }
+    public function about(){
+             
+        return view('about');
     
     }
 }
